@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.0" orientation="isometric" renderorder="right-down" compressionlevel="1" width="30" height="30" tilewidth="32" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="11">
+<map version="1.10" tiledversion="1.11.0" orientation="isometric" renderorder="right-down" compressionlevel="1" width="30" height="30" tilewidth="32" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="22">
  <tileset firstgid="1" name="spritesheet" tilewidth="32" tileheight="32" tilecount="121" columns="11" objectalignment="center" fillmode="preserve-aspect-fit">
   <grid orientation="isometric" width="32" height="16"/>
   <image source="../../tilemap/spritesheet.png" width="352" height="352"/>
@@ -46,16 +46,16 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -73,11 +73,26 @@
 </data>
  </layer>
  <objectgroup id="4" name="Camera">
-  <object id="9" name="camera" x="201.154" y="195.769">
+  <object id="9" name="camera" x="203.404" y="201.394">
    <properties>
     <property name="camera" type="bool" value="true"/>
     <property name="zoom" type="float" value="4"/>
    </properties>
+   <point/>
+  </object>
+  <object id="11" name="Palace" x="170.339" y="170.532">
+   <point/>
+  </object>
+  <object id="12" name="Placement1" x="105.933" y="169.688">
+   <point/>
+  </object>
+  <object id="13" name="Placement2" x="169.495" y="105.002">
+   <point/>
+  </object>
+  <object id="14" name="Placement3" x="249.931" y="137.064">
+   <point/>
+  </object>
+  <object id="15" name="Placement4" x="134.792" y="246.922">
    <point/>
   </object>
  </objectgroup>
